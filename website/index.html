@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>株式会社Jasho — 伝統の叡智と、次世代の技術</title>
+  <meta name="description" content="株式会社Jasho。日本の美学とITを束ね、長く信頼されるデジタル体験を設計します。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Shippori+Mincho:wght@400;500;600;700&family=Zen+Kaku+Gothic+New:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a href="#" class="mark" data-tab="home" aria-label="ホームへ">
+      <span class="mark__glyph" lang="en">J</span>
+      <span class="mark__word">Jasho</span>
+    </a>
+    <nav class="tabs" aria-label="メインナビゲーション">
+      <button type="button" class="tab is-active" data-tab="home">Home</button>
+      <button type="button" class="tab" data-tab="company">会社情報</button>
+      <button type="button" class="tab" data-tab="portfolio">ポートフォリオ</button>
+      <button type="button" class="tab" data-tab="contact">問い合わせ</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="panel-home" class="panel is-visible" tabindex="-1">
+      <div class="hero">
+        <p class="eyebrow">Kyoto · Tradition · Technology</p>
+        <h1 class="hero__title">
+          <span class="hero__line">静謐な美意識を、</span>
+          <span class="hero__line hero__line--accent">コードへ移す。</span>
+        </h1>
+        <p class="hero__lead">
+          株式会社Jashoは、日本の細部へのこだわりとデジタル基盤の両立を信条に、
+          ブランドの物語を丁寧に翻訳し、長く愛される体験をつくります。
+        </p>
+        <div class="hero__actions">
+          <button type="button" class="btn btn--primary" data-tab="portfolio">実績を見る</button>
+          <button type="button" class="btn btn--ghost" data-tab="contact">相談する</button>
+        </div>
+      </div>
+      <ul class="pillars">
+        <li>
+          <span class="pillars__num">01</span>
+          <h3>和の品格</h3>
+          <p>余白、質感、言葉の温度。日本的な品位をインターフェースに宿す。</p>
+        </li>
+        <li>
+          <span class="pillars__num">02</span>
+          <h3>伝統の継承</h3>
+          <p>手仕事の哲学を、再現性のある設計原則へと昇華する。</p>
+        </li>
+        <li>
+          <span class="pillars__num">03</span>
+          <h3>ITの推進力</h3>
+          <p>クラウド、アーキテクチャ、データ。堅牢な技術で未来へ橋をかける。</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="panel-company" class="panel" tabindex="-1" hidden>
+      <header class="section-head">
+        <p class="eyebrow">Company</p>
+        <h2>会社情報</h2>
+      </header>
+      <div class="company-grid">
+        <article class="card card--wide">
+          <h3>会社概要</h3>
+          <dl class="facts">
+            <div><dt>商号</dt><dd>株式会社Jasho</dd></div>
+            <div><dt>代表取締役</dt><dd>Shogo Asano（浅野 祥吾）</dd></div>
+            <div><dt>所在地</dt><dd>〒600‑8216 京都府京都市下京区（※デモ表記）</dd></div>
+          </dl>
+        </article>
+        <article class="card">
+          <h3>沿革</h3>
+          <ul class="timeline">
+            <li><time>2019</time><span>創業。文化財デジタルアーカイブの受託開発から事業開始。</span></li>
+            <li><time>2021</time><span>エンタープライズ向け設計・運用保守のラインを確立。</span></li>
+            <li><time>2024</time><span>ブランドDX支援を本格化。京都拠点とのハイブリッド体制へ。</span></li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>ミッション</h3>
+          <p class="quote">「見えない手間を削ぎ落とし、残すべき体験だけを残す。」</p>
+          <p>複雑さの奥に眠る本質を拾い上げ、使う人の集中と安心を守るプロダクトへと蒸留します。</p>
+        </article>
+        <article class="card">
+          <h3>ビジョン</h3>
+          <p class="quote">「技術と伝統が対話する、次の標準を定義する。」</p>
+          <p>日本発の美意識とエンジニアリングを接続し、グローバルでも参照される設計言語を育てます。</p>
+        </article>
+        <article class="card card--wide">
+          <h3>主な実績</h3>
+          <ul class="achieve">
+            <li>大手百貨店グループ：会員基盤刷新（設計〜移行〜KPI可視化）</li>
+            <li>伝統工芸連合：作品カタログの多言語Eコマース／在庫連携</li>
+            <li>地方自治体：文化財3Dスキャン・メタデータ基盤の構築</li>
+            <li>医療系スタートアップ：監査ログ準拠の診療補助アプリ設計</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="panel-portfolio" class="panel" tabindex="-1" hidden>
+      <header class="section-head">
+        <p class="eyebrow">Selected works</p>
+        <h2>ポートフォリオ</h2>
+      </header>
+      <div class="portfolio">
+        <article class="work">
+          <div class="work__meta">
+            <span class="work__cat">Brand Platform</span>
+            <h3>Kizuna Atlas</h3>
+          </div>
+          <p>コミュニティ資産の可視化と寄付動線を一本化。和紙テクスチャをCSS変数で制御し、季節ごとに色相だけを更新。</p>
+        </article>
+        <article class="work">
+          <div class="work__meta">
+            <span class="work__cat">Heritage Tech</span>
+            <h3>Silk Ledger</h3>
+          </div>
+          <p>織物産地の生産履歴をNFT相当のトレサビリティで記録。オフライン優先の同期層を独自実装。</p>
+        </article>
+        <article class="work">
+          <div class="work__meta">
+            <span class="work__cat">Enterprise</span>
+            <h3>Asagiri Console</h3>
+          </div>
+          <p>複数BUを跨ぐ権限モデルをGraph化。監査と運用の両翼を同じUI階層に収めた管理基盤。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="panel-contact" class="panel" tabindex="-1" hidden>
+      <header class="section-head">
+        <p class="eyebrow">Contact</p>
+        <h2>問い合わせ</h2>
+      </header>
+      <div class="contact-layout">
+        <form class="contact-form" id="contact-form" action="mailto:hello@jasho.example" method="get" enctype="text/plain">
+          <label>
+            <span>お名前</span>
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            <span>メール</span>
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+          <label>
+            <span>件名</span>
+            <input type="text" name="subject" required />
+          </label>
+          <label>
+            <span>内容</span>
+            <textarea name="body" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn btn--primary">送信内容をメールで開く</button>
+          <p class="form-note">※ご利用環境によってはメールクライアントが起動します。本番運用時はサーバ送信やフォームサービスへ差し替えください。</p>
+        </form>
+        <aside class="contact-aside">
+          <p class="quote">「まずは輪郭から。詳細は対話で。」</p>
+          <p>プロジェクトの段階、予算感、納期の目安がわかればスムーズです。NDA希望の場合も遠慮なくお知らせください。</p>
+          <p class="contact-mail"><a href="mailto:hello@jasho.example">hello@jasho.example</a></p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> 株式会社Jasho · Crafted in Japan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
